@@ -1,0 +1,157 @@
+/*css file*/
+
+body {
+	background: linear-gradient(to top, #0090FF 0%, #E3FFFC 50%, #00E2FF 100%);
+;
+	font-family:Geneva,Arial,Helvetica,sans-serif;
+	margin: 0px auto;
+	border:solid;
+	border-color:rgb(113, 113, 113);
+}
+
+header {
+	background-color: #0000ff;
+	display:block;
+	text-align:center;
+  border-radius: 60px;
+  border: 7px solid #0199ad;
+  background: linear-gradient(to top, #07B8CF 0%, #20CFCC 100%);
+
+}
+
+header h2 {
+  
+        font-size: 24px;
+        margin: 0px;
+		text-shadow: 7px 3px 5px rgba(36, 145, 229, 1);
+		color: #1d222b;
+		font-weight: 900;	
+
+}
+
+header h1 {
+     
+        font-size: 42px;
+        margin: 0px;
+		text-shadow: 7px 3px 5px rgba(36, 145, 229, 1);
+		color: #1d222b;
+		font-weight: 900;
+}
+footer {
+	clear: both;	
+	display: block;
+	background-color: rgb(30, 6, 163);
+	color:#0000FF;
+	text-align:center;
+	padding: 15px;
+}
+
+footer h2 {
+	font-size: 14px;
+	color: whitesmoke;
+}
+
+h2 {
+	font-size: 24px;
+	text-align:center;
+	color: #F47D31;
+}
+
+h3 {
+	font-size: 18px;
+	text-align:center;
+	text-shadow: 4px 4px 16px rgba(37, 99, 235, 1);
+	color: #1e293b;
+	font-weight: 900;
+}
+
+nav {
+	display:block;
+	width:30%;
+	float:left;
+}
+
+nav a { color: #004bad;
+}
+
+nav a:link, visited {
+	display: block;
+	border-bottom: 10px solid #22cfff;
+	padding: 10px;
+	text-decoration: none;
+	font-weight: bold;
+	margin: 15px;
+}
+nav a:hover {
+	text-decoration: none;
+	color: rgb(24, 86, 255);
+	background-color: #ffffff;
+}
+
+nav h3 {
+	margin: 15px;
+
+}
+
+section {
+	display:block;
+	width:65%;
+	float:left;
+}
+section h1 {
+	padding: 5px;
+        font-size: 24px;
+	margin: 0px;
+	text-align:center;
+	color: #ff0000;
+}
+
+article {
+	background-color: #eee;
+  border-radius: 60px;
+  border: 7px solid #0199ad;
+  background: #058191;
+  background: linear-gradient(to top, #058191 0%, #0DDAF4 100%);
+	display:block;
+	margin: 10px;
+	padding: 10px;
+}
+
+article header {
+        color:black;
+	padding: 5px;
+  border-radius: 60px;
+  border: 7px solid #0199ad;
+  background: #8fe9ff;
+}
+
+
+article h1 {
+	font-size: 18px;
+	text-shadow: 7px 3px 5px rgba(36, 145, 229, 1);
+	color: #1d222b;
+	font-size: 20px;
+	font-weight: 900;
+        color:black;
+
+}
+
+
+/* Page adapts to the small screens of smart phones! */
+
+@media (max-width: 568px) {
+  nav {
+    float: none;
+    width: 100%;
+    min-height: 0em;
+  }
+  video {
+   max-width: 100%;
+   height: auto;
+  }
+  section {
+    float: none;
+    width: 100%;
+  }
+ }
+	
