@@ -1,1 +1,1 @@
-An experimental web-development project I worked on
+A responsive web development proof of concept
